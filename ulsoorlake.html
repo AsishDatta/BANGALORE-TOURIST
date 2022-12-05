@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bangalore Tourist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+  </head>
+<body class="light-grey">
+
+<!-- Navigation Bar -->
+<div class="bar white border-bottom xlarge search-box">
+    <img src="logo (2).png" alt="" class="logo">
+  <button class="btn-search"><i class="fa fa-search"></i></button>
+    <input type="text" class="input-search" placeholder="Type to Search...">
+    
+</div>
+
+<!-- Header -->
+<header class="display-container content hide-small" style="max-width:1500px">
+  <img class="background" src="Banglore.webp" alt="London" >
+  <div class="display-middle">
+    <div class="bar black">
+        <button class="bar-item button tablink"onclick="openLink(event, 'Home');" ><a href="bangalore tourist.html"><i class="fa fa-Home margin-right"></i> Home</a></button>
+      <button class="bar-item button tablink"onclick="openLink(event, 'Flight');" ><i class="fa fa-plane margin-right"></i> Flight</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-hotel margin-right"></i>hotel</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car margin-right"></i>Car</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Signup');"><i class="fa fa-user margin-right"></i>Signup</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Login');"><i class="fa fa-user margin-right"></i>Login</button>
+    </div>
+
+    <!-- Tabs -->
+ <div id="Flight" class="container white padding-16 myLink">
+      <h3>Travel the world with us</h3>
+      <div class="row-padding" style="margin:0 -16px;">
+        <div class="half">
+          <label>From</label>
+          <input class="input border" type="text" placeholder="Departing from">
+        </div>
+        <div class="half">
+          <label>To</label>
+          <input class="input border" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      <p><a href="https://www.google.com/travel/flights?tcfs=Ei8KCC9tLzA5YzE3EglCZW5nYWx1cnUaGAoKMjAyMi0xMS0xORIKMjAyMi0xMS0yMBgCUgA&ved=2ahUKEwiC5qXDp6v7AhVcmmYCHWggC9YQyJABegQIARAY&ictx=2&hl=en-IN&gl=in&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4597339%2C4718358%2C4723331%2C4731329%2C4757164%2C4814050%2C4816977%2C4852066%2C4861688%2C4864715%2C4876981%2C4878644%2C4879519%2C4886480%2C4887844%2C4888422%2C4888555%2C4892543%2C4893075%2C4898159"><button class="button red">Search and find dates</button></a></p>
+ </div>
+
+    <div id="Hotel" class="container white padding-16 myLink">
+      <h3>Find the best hotels</h3>
+      <p>Book a hotel with us and get the best fares and promotions.</p>
+      <p>We know hotels - we know comfort.</p>
+      <p><a href="https://www.google.com/travel/hotels/Bengaluru%2C%20Karnataka?q=hotels%20in%20bangalore&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4597339%2C4718358%2C4723331%2C4731329%2C4757164%2C4814050%2C4816977%2C4852066%2C4861688%2C4864715%2C4876981%2C4878644%2C4879519%2C4886480%2C4887844%2C4888422%2C4888555%2C4892543%2C4893075%2C4898159&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI5g8QCxgTEgcI5g8QCxgUGAEyAhAAKgkKBToDSU5SGgA&rp=EMOamNj3qK_FkAEQ4-HUicjul4InEIKsoJnC-MGS7gEQg8O9hd7apZNvOAFAAEgCogEUQmVuZ2FsdXJ1LCBLYXJuYXRha2GaAgIIAA&ap=aAE&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiI9LLkoqv7AhUAAAAAHQAAAAAQAw&utm_campaign=sharing&utm_medium=link&utm_source=htls"><button class="button red">Search Hotels</button></a></p>
+    </div>
+
+    <div id="Car" class="container white padding-16 myLink">
+      <h3>Best car rental in the world!</h3>
+      <p><span class="tag deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+      <input class="input border" type="text" placeholder="Pick-up point">
+      <p><a href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsYEYIavsPv5aM_so1Y9oGHTqLP7kQ:1668348059009&q=car+rental+in+bangalore&rflfq=1&num=10&sa=X&ved=2ahUKEwi206zrqKv7AhVK7TgGHY1fAvQQjGp6BAgXEAE&biw=1536&bih=792&dpr=1.25#rlfi=hd:;si:;mv:[[13.0463176,77.6944985],[12.8270535,77.5428898]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"><button class="button red">Search</button></a></p>
+    </div>
+  </div>
+</header>
+
+<div class="content" style="max-width:1100px;">
+    <div class="container margin-top">
+      <h3><strong>Ulsoor Lake</strong></h3>
+    </div>
+    <div class="row-padding text-white large">
+      <div class="half margin-bottom" >
+        <div class="display-container " id="palace">
+          
+          <img src="Ulsoor-Lake-Bangalore-600-1280x720.png" alt="" >
+        </div>
+      </div>
+    </div>
+    <div class="content" style="max-width:1100px; margin-right: 20%;">
+      <p>Located in the most crowded market area, Tipu Sultan Fort ideally represents the artistic talent which thrived in the past and is among the most fascinating Bangalore tourist places. The ‘Rashk-e-Jannat’ is the summer heaven of the ruler of Mysore, Tipu Sultan. The ruler is largely celebrated for the heroics across the battlefield. With a large appetite for art and culture, the palace is a typical example of the architecture and features sturdy columns along with motifs. A perfect example of Indo-Islamic architecture, the palace is the perfect example of Indo-Islamic architecture.</p>
+
+      <p><span Location: ></span> Albert Victor Road, Bangalore</p>
+      <p><span Timings:></span> Monday to Sunday, 8.30AM – 5.30 PM</p>
+      <p><span Entry Fee:></span> INR 15 for Indians and INR 200 for foreigners</p>
+      
+    </div>
+</div>
+
+
+</div>
+<!-- Explore Nature -->
+<div class="container">
+  <h3>Explore More Places</h3>
+  <p>Travel with us and see nature at its finest.</p>
+</div>
+<div class="row-padding">
+  <div class="half margin-bottom">
+    <iframe width="400" height="240" src="https://www.youtube.com/embed/YBTDw6Hcu4I" title="20 Must visit Bangalore Tourist Places in 2020 | Comprehensive guide | Most Livable city" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container white">
+      <h3>Top 20 Places</h3>
+      <p class="opacity">Roundtrip</p>
+      
+    </div>
+  </div>
+  <div class="half margin-bottom">
+    <iframe width="400" height="240" src="https://www.youtube.com/embed/HAXfRcLIVdk" title="Bangalore - Top 30 Amazing Places in Bangalore (Bengaluru) | Karnataka | The Hello India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <div class="container white">
+      
+      <h3>Top 30 Places</h3>
+      <p class="opacity">Roundtrip</p>
+      
+    </div>
+  </div>
+</div>
+
+  
+  
+  <!-- Contact -->
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Let us book your next trip!</p>
+    <i class="fa fa-map-marker" style="width:30px"></i> India ,Bangalore<br>
+    <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9830173444<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: bangaloretourist@gmail.com<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding-16 border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="button black padding-large" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="container center opacity margin-bottom">
+  <h5>Find Us On</h5>
+  <div class="xlarge padding-16">
+    <i class="fa fa-facebook-official hover-opacity"></i>
+    <i class="fa fa-instagram hover-opacity"></i>
+    <i class="fa fa-snapchat hover-opacity"></i>
+    <i class="fa fa-pinterest-p hover-opacity"></i>
+    <i class="fa fa-twitter hover-opacity"></i>
+    <i class="fa fa-linkedin hover-opacity"></i>
+  </div>
+  
+ <!-- Footer end. -->
+ </footer>
+ <script>
+     function openLink(evt, linkName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("myLink");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" red", "");
+    }
+    document.getElementById(linkName).style.display = "block";
+    evt.currentTarget.className += " red";
+  }
+  
+  // Click on the first tablink on load
+  document.getElementsByClassName("tablink")[0].click();
+ </script>
+
+</body>
+</html>
